@@ -1,3 +1,3 @@
-##A simple tic-tac-toe app built with React.js
+# A simple tic-tac-toe app built with React.js
 
 
