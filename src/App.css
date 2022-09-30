@@ -1,0 +1,41 @@
+body {
+  background-color: #ffffff;
+}
+
+/* animations for cell */
+/* @keyframes cell {
+  0% {
+    border-color: white;
+  }
+
+  100% {
+    border-color: #0ef39b;
+  }
+} */
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+                     
+.box {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color : white;
+  /* transition : border-color 5s, border-width 5s; */
+}
+
+.box:active {
+  border-width : 20px;
+  border-color : cyan;
+  transition: border-color 5s, border-width 5s;
+}
+
+.icon {
+  font-size: 35px;
+  color: #0ef39b;
+}
